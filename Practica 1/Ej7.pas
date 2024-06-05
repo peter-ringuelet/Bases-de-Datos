@@ -121,10 +121,8 @@ begin
   begin
     Read(archivoAlumnos, alumno);
     if alumno.Legajo = legajoBuscar then
-    begin
       encontrado := True;
       // Solicitar nuevo año y actualizar registro
-    end;
   end;
   
   if not encontrado then
